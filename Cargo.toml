@@ -24,7 +24,10 @@ uuid = { version = "1.7.0", features = ["v4"] }
 chrono = "0.4"
 
 # Networking (used to interact with the networking repository)
-yogachain-networking = { path = "../yogachain-common" }
+yogachain-networking = { path = "../networking" }
+
+# Shared Common Dependencies
+yogachain-common = { path = "../yogachain-common" }
 
 [dev-dependencies]
 tokio-test = "0.4"
